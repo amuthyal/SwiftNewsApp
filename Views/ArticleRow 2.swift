@@ -1,3 +1,9 @@
+//
+//  ArticleRow 2.swift
+//  SwiftNews
+//
+//  Created by Akhila Muthyala on 4/26/25.
+//
 import SwiftUI
 
 struct ArticleRow: View {
