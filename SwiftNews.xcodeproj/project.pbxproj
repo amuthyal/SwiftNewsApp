@@ -32,6 +32,7 @@
 		695251912DBF18570040EE12 /* SavedArticlesLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695251902DBF18540040EE12 /* SavedArticlesLink.swift */; };
 		695251932DBF186E0040EE12 /* AddCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695251922DBF186C0040EE12 /* AddCategoryButton.swift */; };
 		695251952DBF33060040EE12 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 695251942DBF32FE0040EE12 /* .gitignore */; };
+		695251972DBF35DE0040EE12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 695251962DBF35CC0040EE12 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		695251902DBF18540040EE12 /* SavedArticlesLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedArticlesLink.swift; sourceTree = "<group>"; };
 		695251922DBF186C0040EE12 /* AddCategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryButton.swift; sourceTree = "<group>"; };
 		695251942DBF32FE0040EE12 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		695251962DBF35CC0040EE12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -121,6 +123,11 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		695251992DBF36960040EE12 /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +158,8 @@
 		695250EA2DBDB9FA0040EE12 = {
 			isa = PBXGroup;
 			children = (
+				695251992DBF36960040EE12 /* Screenshots */,
+				695251962DBF35CC0040EE12 /* README.md */,
 				695251942DBF32FE0040EE12 /* .gitignore */,
 				695251882DBEE26E0040EE12 /* Components */,
 				695251512DBDCE900040EE12 /* Utilities */,
@@ -246,6 +255,7 @@
 				695250F52DBDB9FA0040EE12 /* SwiftNews */,
 				695251512DBDCE900040EE12 /* Utilities */,
 				695251882DBEE26E0040EE12 /* Components */,
+				695251992DBF36960040EE12 /* Screenshots */,
 			);
 			name = SwiftNews;
 			packageProductDependencies = (
@@ -349,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695251972DBF35DE0040EE12 /* README.md in Resources */,
 				695251952DBF33060040EE12 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
