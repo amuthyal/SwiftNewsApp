@@ -5,7 +5,7 @@ SwiftNews is a beautifully designed SwiftUI iOS application that fetches and dis
 ## 📱 App Previews
 
 ### Home Screen
-![Home Screen](Screenshots/home.png)
+![Home Screen](Screenshots/Home.png)
 
 ### Menu Icon
 ![Menu Icon](Screenshots/MenuIcon.png)
